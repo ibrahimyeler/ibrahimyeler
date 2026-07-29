@@ -91,13 +91,11 @@ func main() {
 
 ## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="26" /> Featured Work
 
-### 📂 Open Source
-
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### 🐹 [Go-Journey](https://github.com/ibrahimyeler/Go-Journey)
+### 🐹 [Go-Journey](https://github.com/ibrahimyeler/Go-Journey)
 
 Learning-in-public journey through Go — idiomatic patterns, concurrency, and stdlib deep dives.
 
@@ -107,7 +105,7 @@ Learning-in-public journey through Go — idiomatic patterns, concurrency, and s
 </td>
 <td width="50%" valign="top">
 
-#### 🗒️ [desktopnot](https://github.com/ibrahimyeler/desktopnot)
+### 🗒️ [desktopnot](https://github.com/ibrahimyeler/desktopnot)
 
 Cross-platform desktop note-taking app — local-first, keyboard-driven, zero-friction capture.
 
@@ -117,63 +115,6 @@ Cross-platform desktop note-taking app — local-first, keyboard-driven, zero-fr
 </td>
 </tr>
 </table>
-
-### 🔒 Selected Private & Client Work
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 🔀 Yönlendirme Platformu
-
-Multi-tenant referral platform spanning **6 repositories** — 4 Next.js clients (web, admin, institution, customer) and 2 Flutter apps, all sharing a single API contract.
-
-<img src="https://img.shields.io/badge/Next.js-0D1117?style=flat-square&logo=nextdotjs&logoColor=00ADD8" alt="Next.js" />
-<img src="https://img.shields.io/badge/Flutter-0D1117?style=flat-square&logo=flutter&logoColor=00ADD8" alt="Flutter" />
-<img src="https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=00ADD8" alt="TypeScript" />
-
-</td>
-<td width="50%" valign="top">
-
-#### ⚡ Project Tracking API
-
-High-performance **Go** backend for project and task tracking — designed for low p99 latency and horizontal scale.
-
-<img src="https://img.shields.io/badge/Go-0D1117?style=flat-square&logo=go&logoColor=00ADD8" alt="Go" />
-<img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=00ADD8" alt="PostgreSQL" />
-<img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=00ADD8" alt="Docker" />
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🏢 Kolay Apartman
-
-Building and resident management platform — dues tracking, announcements, and multi-block administration.
-
-<img src="https://img.shields.io/badge/Next.js-0D1117?style=flat-square&logo=nextdotjs&logoColor=00ADD8" alt="Next.js" />
-<img src="https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=00ADD8" alt="TypeScript" />
-<img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=00ADD8" alt="PostgreSQL" />
-
-</td>
-<td width="50%" valign="top">
-
-#### 🏘️ Karataş Gayrimenkul
-
-Real-estate suite — public site, REST API, and paired customer / admin **Flutter** mobile apps.
-
-<img src="https://img.shields.io/badge/Flutter-0D1117?style=flat-square&logo=flutter&logoColor=00ADD8" alt="Flutter" />
-<img src="https://img.shields.io/badge/Node.js-0D1117?style=flat-square&logo=nodedotjs&logoColor=00ADD8" alt="Node.js" />
-<img src="https://img.shields.io/badge/REST_API-0D1117?style=flat-square&logo=fastapi&logoColor=00ADD8" alt="REST API" />
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-<sub><i>Private repositories — happy to walk through the architecture on request.</i></sub>
-</div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366F1,50:00ADD8,100:0D1117&height=3&section=header" width="100%" alt="divider" />
 
