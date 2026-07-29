@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=700&color=00ADD8&center=true&vCenter=true&width=720&height=48&lines=Go++%7C++.NET+Core++%7C++Next.js++%7C++Flutter;Clean+Architecture+%26+Domain-Driven+Design;Scalable+APIs+%E2%80%A2+High-Performance+Services;I+build+systems+that+outlive+their+first+release" alt="typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=700&color=00ADD8&center=true&vCenter=true&width=720&height=48&lines=Go++%7C++NestJS++%7C++Next.js++%7C++Flutter;Clean+Architecture+%26+Domain-Driven+Design;Scalable+APIs+%E2%80%A2+High-Performance+Services;I+build+systems+that+outlive+their+first+release" alt="typing" />
 
 <br/>
 
@@ -48,8 +48,8 @@ func main() {
         Focus: []string{"clean architecture", "API performance", "DX"},
         Stack: map[string][]string{
             "frontend": {"Next.js", "React", "TypeScript", "Tailwind"},
-            "mobile":   {"Flutter", "Kotlin"},
-            "backend":  {"Go", "ASP.NET Core", "Node.js"},
+            "mobile":   {"Flutter", "Kotlin", "Swift"},
+            "backend":  {"Go", "Node.js", "NestJS"},
             "infra":    {"PostgreSQL", "Redis", "Docker", "GitHub Actions"},
         },
         Currently: "shipping multi-tenant platforms end to end",
@@ -73,11 +73,11 @@ func main() {
 
 **Mobile**
 
-<img src="https://skillicons.dev/icons?i=flutter,dart,kotlin&theme=dark" alt="mobile" />
+<img src="https://skillicons.dev/icons?i=flutter,dart,kotlin,swift&theme=dark" alt="mobile" />
 
 **Backend**
 
-<img src="https://skillicons.dev/icons?i=go,dotnet,cs,nodejs,nestjs&theme=dark" alt="backend" />
+<img src="https://skillicons.dev/icons?i=go,nodejs,nestjs&theme=dark" alt="backend" />
 
 **Data & Infrastructure**
 
@@ -91,56 +91,89 @@ func main() {
 
 ## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="26" /> Featured Work
 
+### 📂 Open Source
+
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🏢 [Kolay Apartman](https://github.com/ibrahimyeler/kolayapartman)
+#### 🐹 [Go-Journey](https://github.com/ibrahimyeler/Go-Journey)
 
-Building & resident management platform — dues tracking, announcements, and multi-block administration.
+Learning-in-public journey through Go — idiomatic patterns, concurrency, and stdlib deep dives.
 
-<img src="https://img.shields.io/github/languages/top/ibrahimyeler/kolayapartman?style=flat-square&color=00ADD8&labelColor=0D1117" alt="top language" />
-<img src="https://img.shields.io/github/stars/ibrahimyeler/kolayapartman?style=flat-square&color=6366F1&labelColor=0D1117" alt="stars" />
-<img src="https://img.shields.io/github/last-commit/ibrahimyeler/kolayapartman?style=flat-square&color=6366F1&labelColor=0D1117" alt="last commit" />
+<img src="https://img.shields.io/github/languages/top/ibrahimyeler/Go-Journey?style=flat-square&color=00ADD8&labelColor=0D1117" alt="top language" />
+<img src="https://img.shields.io/github/last-commit/ibrahimyeler/Go-Journey?style=flat-square&color=6366F1&labelColor=0D1117" alt="last commit" />
 
 </td>
 <td width="50%" valign="top">
 
-### ⚡ [Project Tracking API](https://github.com/ibrahimyeler/projecttrackingbackend)
+#### 🗒️ [desktopnot](https://github.com/ibrahimyeler/desktopnot)
 
-High-performance **Go** backend for project & task tracking — built for low latency and horizontal scale.
+Cross-platform desktop note-taking app — local-first, keyboard-driven, zero-friction capture.
 
-<img src="https://img.shields.io/github/languages/top/ibrahimyeler/projecttrackingbackend?style=flat-square&color=00ADD8&labelColor=0D1117" alt="top language" />
-<img src="https://img.shields.io/github/repo-size/ibrahimyeler/projecttrackingbackend?style=flat-square&color=6366F1&labelColor=0D1117" alt="repo size" />
-<img src="https://img.shields.io/github/last-commit/ibrahimyeler/projecttrackingbackend?style=flat-square&color=6366F1&labelColor=0D1117" alt="last commit" />
+<img src="https://img.shields.io/github/languages/top/ibrahimyeler/desktopnot?style=flat-square&color=00ADD8&labelColor=0D1117" alt="top language" />
+<img src="https://img.shields.io/github/last-commit/ibrahimyeler/desktopnot?style=flat-square&color=6366F1&labelColor=0D1117" alt="last commit" />
+
+</td>
+</tr>
+</table>
+
+### 🔒 Selected Private & Client Work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🔀 Yönlendirme Platformu
+
+Multi-tenant referral platform spanning **6 repositories** — 4 Next.js clients (web, admin, institution, customer) and 2 Flutter apps, all sharing a single API contract.
+
+<img src="https://img.shields.io/badge/Next.js-0D1117?style=flat-square&logo=nextdotjs&logoColor=00ADD8" alt="Next.js" />
+<img src="https://img.shields.io/badge/Flutter-0D1117?style=flat-square&logo=flutter&logoColor=00ADD8" alt="Flutter" />
+<img src="https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=00ADD8" alt="TypeScript" />
+
+</td>
+<td width="50%" valign="top">
+
+#### ⚡ Project Tracking API
+
+High-performance **Go** backend for project and task tracking — designed for low p99 latency and horizontal scale.
+
+<img src="https://img.shields.io/badge/Go-0D1117?style=flat-square&logo=go&logoColor=00ADD8" alt="Go" />
+<img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=00ADD8" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=00ADD8" alt="Docker" />
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🔀 [Yönlendirme Platformu](https://github.com/ibrahimyeler?tab=repositories&q=YonlendirmePlatformu)
+#### 🏢 Kolay Apartman
 
-Multi-tenant referral platform across **6 repositories** — 4 Next.js clients + 2 Flutter apps sharing one API contract.
+Building and resident management platform — dues tracking, announcements, and multi-block administration.
 
 <img src="https://img.shields.io/badge/Next.js-0D1117?style=flat-square&logo=nextdotjs&logoColor=00ADD8" alt="Next.js" />
-<img src="https://img.shields.io/badge/Flutter-0D1117?style=flat-square&logo=flutter&logoColor=00ADD8" alt="Flutter" />
-<img src="https://img.shields.io/badge/repos-6-6366F1?style=flat-square&labelColor=0D1117" alt="6 repositories" />
+<img src="https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=00ADD8" alt="TypeScript" />
+<img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=00ADD8" alt="PostgreSQL" />
 
 </td>
 <td width="50%" valign="top">
 
-### 🌐 [ibrahimyeler.com](https://github.com/ibrahimyeler/ibrahimyeler.com)
+#### 🏘️ Karataş Gayrimenkul
 
-Personal site & portfolio — the source behind [www.ibrahimyeler.com](https://www.ibrahimyeler.com).
+Real-estate suite — public site, REST API, and paired customer / admin **Flutter** mobile apps.
 
-<img src="https://img.shields.io/github/languages/top/ibrahimyeler/ibrahimyeler.com?style=flat-square&color=00ADD8&labelColor=0D1117" alt="top language" />
-<img src="https://img.shields.io/github/repo-size/ibrahimyeler/ibrahimyeler.com?style=flat-square&color=6366F1&labelColor=0D1117" alt="repo size" />
-<img src="https://img.shields.io/github/last-commit/ibrahimyeler/ibrahimyeler.com?style=flat-square&color=6366F1&labelColor=0D1117" alt="last commit" />
+<img src="https://img.shields.io/badge/Flutter-0D1117?style=flat-square&logo=flutter&logoColor=00ADD8" alt="Flutter" />
+<img src="https://img.shields.io/badge/Node.js-0D1117?style=flat-square&logo=nodedotjs&logoColor=00ADD8" alt="Node.js" />
+<img src="https://img.shields.io/badge/REST_API-0D1117?style=flat-square&logo=fastapi&logoColor=00ADD8" alt="REST API" />
 
 </td>
 </tr>
 </table>
+
+<div align="center">
+<sub><i>Private repositories — happy to walk through the architecture on request.</i></sub>
+</div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366F1,50:00ADD8,100:0D1117&height=3&section=header" width="100%" alt="divider" />
 
