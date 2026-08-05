@@ -1,0 +1,7 @@
+# Ham/işlenmemiş görsel kaynakları — diskte kalır, repoya girmez.
+# İşlenmiş sürümler assets/ altında versiyonlanıyor.
+assets/source/
+
+# OS
+.DS_Store
+Thumbs.db

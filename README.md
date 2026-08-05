@@ -1,34 +1,56 @@
-<!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
+<!-- ══════════════════════════════ HEADER ══════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:00ADD8,100:6366F1&height=210&section=header&text=%C4%B0brahim%20Yeler&fontSize=54&fontColor=ffffff&fontAlignY=34&desc=Full-Stack%20Developer%20%E2%80%A2%20Web%20%26amp%3B%20Mobile&descSize=17&descAlignY=53&animation=fadeIn" width="100%" alt="banner" />
+<img src="https://raw.githubusercontent.com/ibrahimyeler/ibrahimyeler/main/assets/hero.svg" width="100%" alt="İbrahim Yeler — full-stack developer" />
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=700&color=00ADD8&center=true&vCenter=true&width=720&height=48&lines=Go++%7C++NestJS++%7C++Next.js++%7C++Flutter;Clean+Architecture+%26+Domain-Driven+Design;Scalable+APIs+%E2%80%A2+High-Performance+Services;I+build+systems+that+outlive+their+first+release" alt="typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=600&color=00FF41&center=true&vCenter=true&width=760&height=46&lines=%3E+booting+kernel...+%5BOK%5D;%3E+mounting+%2Fdev%2Fgo+%2Fdev%2Fnestjs+%2Fdev%2Fnextjs+%2Fdev%2Fflutter;%3E+clean+architecture+%26+domain-driven+design;%3E+scalable+APIs+%E2%80%A2+high-performance+services;%3E+I+build+systems+that+outlive+their+first+release" alt="boot sequence" />
 
 <br/>
 
 <a href="https://www.ibrahimyeler.com">
-  <img src="https://img.shields.io/badge/Portfolio-00ADD8?style=for-the-badge&logo=vercel&logoColor=white" alt="portfolio" />
+  <img src="https://img.shields.io/badge/PORTFOLIO-00FF41?style=for-the-badge&logo=vercel&logoColor=00FF41&labelColor=000000" alt="portfolio" />
 </a>
 <a href="https://github.com/ibrahimyeler?tab=repositories">
-  <img src="https://img.shields.io/badge/Repositories-6366F1?style=for-the-badge&logo=github&logoColor=white" alt="repos" />
+  <img src="https://img.shields.io/badge/REPOSITORIES-000000?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=000000" alt="repositories" />
 </a>
 <a href="mailto:ibrahimyeler10@gmail.com">
-  <img src="https://img.shields.io/badge/Contact-0D1117?style=for-the-badge&logo=gmail&logoColor=00ADD8" alt="mail" />
+  <img src="https://img.shields.io/badge/CONTACT-000000?style=for-the-badge&logo=gmail&logoColor=00FF41&labelColor=000000" alt="contact" />
 </a>
 
-<br/><br/>
+<br/>
 
-<img src="https://komarev.com/ghpvc/?username=ibrahimyeler&label=PROFILE+VIEWS&color=00ADD8&style=for-the-badge" alt="views" />
+<img src="https://img.shields.io/github/followers/ibrahimyeler?style=flat-square&label=FOLLOWERS&labelColor=000000&color=00FF41&logo=github&logoColor=00FF41" alt="followers" />
+<img src="https://komarev.com/ghpvc/?username=ibrahimyeler&label=PROFILE+VIEWS&color=00FF41&style=flat-square" alt="profile views" />
+<img src="https://img.shields.io/badge/STATUS-ONLINE-00FF41?style=flat-square&labelColor=000000" alt="status" />
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:00ADD8,100:6366F1&height=3&section=header" width="100%" alt="divider" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:00FF41,100:000000&height=3&section=header" width="100%" alt="divider" />
 
-<!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
+<!-- ══════════════════════════════ WHOAMI ══════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28" /> whoami
+## <img src="https://raw.githubusercontent.com/ibrahimyeler/ibrahimyeler/main/assets/icons/terminal.png" height="26" alt="" /> <samp>$ whoami</samp>
+
+<table>
+<tr>
+<td width="30%" align="center">
+
+<img src="https://raw.githubusercontent.com/ibrahimyeler/ibrahimyeler/main/assets/avatar.png" width="100%" alt="İbrahim Yeler" />
+
+</td>
+<td width="70%" align="center">
+
+<img src="https://raw.githubusercontent.com/ibrahimyeler/ibrahimyeler/main/assets/terminal.svg" width="100%" alt="terminal session" />
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><samp><b>$ cat main.go</b></samp></summary>
+
+<br/>
 
 ```go
 package main
@@ -59,111 +81,112 @@ func main() {
 }
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366F1,50:00ADD8,100:0D1117&height=3&section=header" width="100%" alt="divider" />
+</details>
 
-<!-- ═══════════════════════════ STACK ═══════════════════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:008F11,100:000000&height=3&section=header" width="100%" alt="divider" />
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28" /> Tech Stack
+<!-- ══════════════════════════════ STACK ══════════════════════════════ -->
+
+## <img src="https://raw.githubusercontent.com/ibrahimyeler/ibrahimyeler/main/assets/icons/layers.png" height="26" alt="" /> <samp>$ cat stack.json</samp>
 
 <div align="center">
 
-**Frontend**
+<samp>**// frontend**</samp>
 
 <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,html,css&theme=dark" alt="frontend" />
 
-**Mobile**
+<samp>**// mobile**</samp>
 
 <img src="https://skillicons.dev/icons?i=flutter,dart,kotlin,swift&theme=dark" alt="mobile" />
 
-**Backend**
+<samp>**// backend**</samp>
 
 <img src="https://skillicons.dev/icons?i=go,nodejs,nestjs&theme=dark" alt="backend" />
 
-**Data & Infrastructure**
+<samp>**// data & infrastructure**</samp>
 
-<img src="https://skillicons.dev/icons?i=postgres,redis,docker,githubactions,git,vercel&theme=dark" alt="infra" />
+<img src="https://skillicons.dev/icons?i=postgres,redis,docker,githubactions,git,linux,vercel&theme=dark" alt="infrastructure" />
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:00ADD8,100:6366F1&height=3&section=header" width="100%" alt="divider" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:00FF41,100:000000&height=3&section=header" width="100%" alt="divider" />
 
-<!-- ═══════════════════════════ PROJECTS ═══════════════════════════ -->
+<!-- ══════════════════════════════ PROJECTS ══════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="26" /> Featured Work
+## <img src="https://raw.githubusercontent.com/ibrahimyeler/ibrahimyeler/main/assets/icons/tree.png" height="26" alt="" /> <samp>$ ls -la ~/projects</samp>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🐹 [Go-Journey](https://github.com/ibrahimyeler/Go-Journey)
+### <samp>🐹 [Go-Journey](https://github.com/ibrahimyeler/Go-Journey)</samp>
 
 Learning-in-public journey through Go — idiomatic patterns, concurrency, and stdlib deep dives.
 
-<img src="https://img.shields.io/github/languages/top/ibrahimyeler/Go-Journey?style=flat-square&color=00ADD8&labelColor=0D1117" alt="top language" />
-<img src="https://img.shields.io/github/last-commit/ibrahimyeler/Go-Journey?style=flat-square&color=6366F1&labelColor=0D1117" alt="last commit" />
+<img src="https://img.shields.io/github/languages/top/ibrahimyeler/Go-Journey?style=flat-square&color=00FF41&labelColor=000000" alt="top language" />
+<img src="https://img.shields.io/github/last-commit/ibrahimyeler/Go-Journey?style=flat-square&color=008F11&labelColor=000000" alt="last commit" />
+<img src="https://img.shields.io/github/stars/ibrahimyeler/Go-Journey?style=flat-square&color=00FF41&labelColor=000000&logo=github&logoColor=00FF41" alt="stars" />
 
 </td>
 <td width="50%" valign="top">
 
-### 🗒️ [desktopnot](https://github.com/ibrahimyeler/desktopnot)
+### <samp>🗒️ [desktopnot](https://github.com/ibrahimyeler/desktopnot)</samp>
 
 Cross-platform desktop note-taking app — local-first, keyboard-driven, zero-friction capture.
 
-<img src="https://img.shields.io/github/languages/top/ibrahimyeler/desktopnot?style=flat-square&color=00ADD8&labelColor=0D1117" alt="top language" />
-<img src="https://img.shields.io/github/last-commit/ibrahimyeler/desktopnot?style=flat-square&color=6366F1&labelColor=0D1117" alt="last commit" />
+<img src="https://img.shields.io/github/languages/top/ibrahimyeler/desktopnot?style=flat-square&color=00FF41&labelColor=000000" alt="top language" />
+<img src="https://img.shields.io/github/last-commit/ibrahimyeler/desktopnot?style=flat-square&color=008F11&labelColor=000000" alt="last commit" />
+<img src="https://img.shields.io/github/stars/ibrahimyeler/desktopnot?style=flat-square&color=00FF41&labelColor=000000&logo=github&logoColor=00FF41" alt="stars" />
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### <samp>⚡ [jcode](https://github.com/ibrahimyeler/jcode)</samp>
+
+The most RAM-efficient harness — minimal footprint, maximum throughput.
+
+<img src="https://img.shields.io/github/languages/top/ibrahimyeler/jcode?style=flat-square&color=00FF41&labelColor=000000" alt="top language" />
+<img src="https://img.shields.io/github/last-commit/ibrahimyeler/jcode?style=flat-square&color=008F11&labelColor=000000" alt="last commit" />
+<img src="https://img.shields.io/github/stars/ibrahimyeler/jcode?style=flat-square&color=00FF41&labelColor=000000&logo=github&logoColor=00FF41" alt="stars" />
+
+</td>
+<td width="50%" valign="top">
+
+### <samp>🐚 [linuxshell](https://github.com/ibrahimyeler/linuxshell)</samp>
+
+A Unix shell written from scratch in C — parsing, process control, and syscalls up close.
+
+<img src="https://img.shields.io/github/languages/top/ibrahimyeler/linuxshell?style=flat-square&color=00FF41&labelColor=000000" alt="top language" />
+<img src="https://img.shields.io/github/last-commit/ibrahimyeler/linuxshell?style=flat-square&color=008F11&labelColor=000000" alt="last commit" />
+<img src="https://img.shields.io/github/stars/ibrahimyeler/linuxshell?style=flat-square&color=00FF41&labelColor=000000&logo=github&logoColor=00FF41" alt="stars" />
 
 </td>
 </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366F1,50:00ADD8,100:0D1117&height=3&section=header" width="100%" alt="divider" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:008F11,100:000000&height=3&section=header" width="100%" alt="divider" />
 
-<!-- ═══════════════════════════ STATS ═══════════════════════════ -->
+<!-- ══════════════════════════════ STATS ══════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="28" /> GitHub Analytics
+## <img src="https://raw.githubusercontent.com/ibrahimyeler/ibrahimyeler/main/assets/icons/bolt.png" height="26" alt="" /> <samp>$ git log --graph --stat</samp>
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ibrahimyeler&theme=github_dark" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ibrahimyeler&theme=github_light" width="100%" alt="profile details" />
-</picture>
-
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ibrahimyeler&theme=github_dark" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ibrahimyeler&theme=github_light" height="200" alt="repos per language" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ibrahimyeler&theme=github_dark" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ibrahimyeler&theme=github_light" height="200" alt="most used language" />
-</picture>
-
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ibrahimyeler&theme=github_dark" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ibrahimyeler&theme=github_light" height="200" alt="stats" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ibrahimyeler&theme=github_dark&utcOffset=3" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ibrahimyeler&theme=github_light&utcOffset=3" height="200" alt="productive time" />
-</picture>
+<img src="https://streak-stats.demolab.com?user=ibrahimyeler&hide_border=true&background=00000000&stroke=008F11&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=6E7681" alt="commit streak" />
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=ibrahimyeler&hide_border=true&background=00000000&stroke=6366F1&ring=00ADD8&fire=00ADD8&currStreakLabel=00ADD8&sideLabels=8B949E&currStreakNum=8B949E&sideNums=8B949E&dates=6E7681" alt="streak" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ibrahimyeler&bg_color=00000000&color=00ADD8&line=6366F1&point=FFFFFF&area=true&area_color=00ADD8&hide_border=true&custom_title=Contribution%20Activity" alt="activity graph" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ibrahimyeler&bg_color=00000000&color=00FF41&line=00FF41&point=FFFFFF&area=true&area_color=008F11&hide_border=true&custom_title=%3E%20contribution%20activity" alt="contribution activity" width="100%" />
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:00ADD8,100:6366F1&height=3&section=header" width="100%" alt="divider" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:00FF41,100:000000&height=3&section=header" width="100%" alt="divider" />
 
-<!-- ═══════════════════════════ SNAKE ═══════════════════════════ -->
+<!-- ══════════════════════════════ SNAKE ══════════════════════════════ -->
+
+## <img src="https://raw.githubusercontent.com/ibrahimyeler/ibrahimyeler/main/assets/icons/wrench.png" height="26" alt="" /> <samp>$ ./snake --eat-contributions</samp>
 
 <div align="center">
 
@@ -175,22 +198,24 @@ Cross-platform desktop note-taking app — local-first, keyboard-driven, zero-fr
 
 </div>
 
-<!-- ═══════════════════════════ PRINCIPLES ═══════════════════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:008F11,100:000000&height=3&section=header" width="100%" alt="divider" />
 
-## <img src="https://media.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif" width="26" /> How I Work
+<!-- ══════════════════════════════ PRINCIPLES ══════════════════════════════ -->
+
+## <img src="https://raw.githubusercontent.com/ibrahimyeler/ibrahimyeler/main/assets/icons/lock.png" height="26" alt="" /> <samp>$ cat PRINCIPLES.md</samp>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**🏗️ Architecture First**
+**`[01]` 🏗️ Architecture First**
 
 Boundaries before frameworks. DDD where the domain earns it, plain CRUD where it doesn't.
 
 </td>
 <td width="50%" valign="top">
 
-**⚡ Performance as a Feature**
+**`[02]` ⚡ Performance as a Feature**
 
 p99 latency and cold starts are product decisions, not afterthoughts.
 
@@ -199,14 +224,14 @@ p99 latency and cold starts are product decisions, not afterthoughts.
 <tr>
 <td width="50%" valign="top">
 
-**🔒 Security by Default**
+**`[03]` 🔒 Security by Default**
 
 Auth, rate limiting, and input validation live in the template — never bolted on later.
 
 </td>
 <td width="50%" valign="top">
 
-**🛠️ Developer Experience**
+**`[04]` 🛠️ Developer Experience**
 
 If onboarding takes more than one command, the setup is the bug.
 
@@ -214,14 +239,14 @@ If onboarding takes more than one command, the setup is the bug.
 </tr>
 </table>
 
-<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+<!-- ══════════════════════════════ FOOTER ══════════════════════════════ -->
 
 <div align="center">
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=4000&pause=1000&color=6366F1&center=true&vCenter=true&width=460&height=36&lines=Thanks+for+stopping+by+%E2%9C%A6;Let's+build+something+solid" alt="footer" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=3600&pause=900&color=00FF41&center=true&vCenter=true&width=520&height=40&lines=%24+exit+0;%3E+thanks+for+stopping+by+%E2%9C%A6;%3E+let's+build+something+solid" alt="footer" />
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,55:00ADD8,100:0D1117&height=130&section=footer" width="100%" alt="footer wave" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:008F11,100:00FF41&height=130&section=footer" width="100%" alt="footer wave" />
