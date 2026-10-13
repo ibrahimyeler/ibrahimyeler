@@ -3,6 +3,8 @@ services:
   web:
     image: ${PORTFOLIO_IMAGE:?A tested portfolio image is required}
     restart: unless-stopped
+    environment:
+      API_INTERNAL_URL: http://iy-backend:8080
     networks:
       proxy:
         aliases: [iy-portfolio]

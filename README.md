@@ -44,3 +44,25 @@ The original built-in generation prompts and source mapping are recorded in `doc
 ## Automatic production deployment
 
 Pushes to `main` automatically deploy this repository to [ibrahimyeler.com](https://ibrahimyeler.com) after successful checks. See [deployment documentation](deploy/README.md) for configuration and rollback.
+
+## Content administration through ibOS
+
+The site reads published projects from the portfolio API on every request.
+`API_INTERNAL_URL` defaults to `https://api.ibrahimyeler.com`; production uses
+`http://iy-backend:8080` on the private Docker network. No admin credential is
+shipped to the browser. Empty or failed responses do not restore old static
+projects. The contact form forwards validated messages to the same API.
+
+Manage projects and messages in the **İbrahim Yeler** ibOS module. New images
+must use `/images/…` or the trusted API `/uploads/…` host. The public site
+keeps its existing presentation; new projects use the neutral default style.
+
+For a fresh database, `scripts/seed-content.mjs` inserts missing initial slugs
+without overwriting existing records. Supply `ADMIN_EMAIL`, `ADMIN_PASSWORD`
+and optionally `API_URL` through the environment; never commit credentials.
+
+Local API tests (no production writes):
+1. `node tests/fixtures/content-api.mjs`
+2. `npm run build`
+3. `API_INTERNAL_URL=http://127.0.0.1:3191 npm start -- --port 3102`
+4. `npm run test:e2e`
