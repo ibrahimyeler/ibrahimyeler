@@ -1,0 +1,18 @@
+name: ibrahimyeler-portfolio
+services:
+  web:
+    image: ${PORTFOLIO_IMAGE:?A tested portfolio image is required}
+    restart: unless-stopped
+    networks:
+      proxy:
+        aliases: [iy-portfolio]
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 10s
+      timeout: 5s
+      start_period: 15s
+      retries: 3
+networks:
+  proxy:
+    external: true
+    name: cindenevar-api_default

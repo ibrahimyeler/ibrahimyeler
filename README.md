@@ -39,3 +39,7 @@ Page content and interactions: `app/page.tsx`. Styling and breakpoints: `app/glo
 
 The original built-in generation prompts and source mapping are recorded in `docs/assets.json`; deployed images are self-contained in `public/images` and do not depend on those machine-local source paths. Product cover images are illustrative concepts. Project descriptions follow the supplied reference rather than claiming measured product results.
 # ibrahimportfoy
+
+## Automatic production deployment
+
+Pushes to `main` automatically deploy this repository to [ibrahimyeler.com](https://ibrahimyeler.com) after successful checks. See [deployment documentation](deploy/README.md) for configuration and rollback.
