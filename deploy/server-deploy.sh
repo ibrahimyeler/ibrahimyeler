@@ -41,7 +41,15 @@ if [[ $(git --git-dir="$repository" rev-parse refs/remotes/origin/main) != "$rev
 fi
 mkdir -p "$release"
 git --git-dir="$repository" archive "$revision" | tar -xf - -C "$release"
-docker build -f "$release/Dockerfile.production" -t "$image" "$release"
+cat > "$root/build.compose.yml" <<BUILD
+services:
+  web:
+    image: $image
+    build:
+      context: $release
+      dockerfile: Dockerfile.production
+BUILD
+docker compose --progress plain -p iy-portfolio-build -f "$root/build.compose.yml" build web
 docker run -d --name "$candidate" --network none "$image"
 ready=0
 for attempt in {1..30}; do
