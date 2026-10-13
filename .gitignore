@@ -1,7 +1,9 @@
-# Ham/işlenmemiş görsel kaynakları — diskte kalır, repoya girmez.
-# İşlenmiş sürümler assets/ altında versiyonlanıyor.
-assets/source/
-
-# OS
+node_modules/
+.next/
+out/
+.env*
+!.env.example
 .DS_Store
-Thumbs.db
+*.tsbuildinfo
+playwright-report/
+test-results/
