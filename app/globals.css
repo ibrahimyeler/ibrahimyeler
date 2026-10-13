@@ -373,6 +373,9 @@ h3 {
   width: 29px;
   height: 29px;
 }
+.project-icon.gold {
+  color: #e0bf80;
+}
 .project-icon.pink {
   background: #ff5775;
   border-radius: 6px;
@@ -1448,6 +1451,9 @@ h2 {
 .experiment-grid {
   gap: clamp(16px, 1.5vw, 30px);
   grid-template-columns: 1.12fr 1fr;
+}
+.project-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .project-card,
 .experiment-card {

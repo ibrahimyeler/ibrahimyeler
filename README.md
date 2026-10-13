@@ -1,6 +1,6 @@
 # İbrahim Yeler — Portfolio
 
-A responsive Next.js portfolio based on the supplied visual reference. Dark navy, turquoise and violet, with eight original 3D assets generated with the built-in image_gen tool.
+A responsive Next.js portfolio based on the supplied visual reference. Dark navy, turquoise and violet, with nine original 3D assets generated with the built-in image_gen tool.
 
 ## Run locally
 
@@ -26,6 +26,7 @@ Browser tests expect Google Chrome and a running app at http://127.0.0.1:3102. O
 ## Included
 
 - Responsive hero, filtered project gallery and accessible project dialogs.
+- ChessFlutter project showcase featuring an on-device chess opponent, historical campaigns, unlockable themes and local progress. The generated cover is illustrative artwork based on the app game screen.
 - About, technology toolkit, creative process and software architecture sections.
 - Interactive Hexball concept and generative wave experiment.
 - Motion switch, hover preview and command palette (⌘/Ctrl + K).

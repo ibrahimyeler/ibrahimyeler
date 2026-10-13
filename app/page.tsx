@@ -21,6 +21,7 @@ import {
   Building2,
   Heart,
   ShoppingCart,
+  ChessKnight,
   Check,
   MousePointer2,
   Sparkles,
@@ -44,7 +45,7 @@ type Project = {
   name: string;
   image: string;
   tags: Category[];
-  icon: "building" | "heart" | "cart";
+  icon: "building" | "heart" | "cart" | "chess";
   description: string;
   features: string[];
   color: string;
@@ -90,6 +91,21 @@ const projects: Project[] = [
       "Product catalog and storefront",
       "Order and inventory workflows",
       "Scalable service architecture",
+    ],
+  },
+  {
+    name: "ChessFlutter",
+    image: "chessflutter",
+    tags: ["Mobile", "Web"],
+    icon: "chess",
+    color: "gold",
+    description:
+      "A game of strategy. A journey through history. Built with Flutter, this chess experience pairs an on-device opponent with richly themed boards, historical campaigns and a collection that grows with every victory.",
+    features: [
+      "On-device chess engine with hints and adjustable difficulty",
+      "12-stage journey through Turkish and Roman history",
+      "Unlockable board themes, achievements and daily goals",
+      "Game history and progress saved on your device",
     ],
   },
 ];
@@ -167,6 +183,8 @@ function ProjectIcon({ type }: { type: Project["icon"] }) {
     <Building2 />
   ) : type === "heart" ? (
     <Heart />
+  ) : type === "chess" ? (
+    <ChessKnight />
   ) : (
     <ShoppingCart />
   );
@@ -309,9 +327,13 @@ export default function Home() {
   const ask = (value: string) => {
     const q = value.trim().toLowerCase();
     if (!q) return;
-    if (/project|work|proje/.test(q))
+    if (/chess|satranç/.test(q))
       setAnswer(
-        "Explore KolayApartman for apartment management, Momby for parenting, and the E-commerce Platform for connected commerce. Select any project above to learn more.",
+        "ChessFlutter combines on-device chess with 12 historical stages, collectible board themes and achievements. Built with Flutter for mobile and web, it saves game history and progress on your device. Open its project card to explore the details.",
+      );
+    else if (/project|work|proje/.test(q))
+      setAnswer(
+        "Explore KolayApartman for apartment management, Momby for parenting, the E-commerce Platform for connected commerce, and ChessFlutter for chess and historical adventures. Select any project above to learn more.",
       );
     else if (/tech|stack|tool|tekn|next|react|flutter/.test(q))
       setAnswer(
@@ -468,7 +490,7 @@ export default function Home() {
               .filter((p) => filter === "All" || p.tags.includes(filter))
               .map((p) => (
                 <button
-                  className={`project-card ${p.image === "commerce" ? "wide" : ""}`}
+                  className="project-card"
                   key={p.name}
                   onClick={() => setProject(p)}
                   aria-label={`View ${p.name} project`}
@@ -478,11 +500,7 @@ export default function Home() {
                       src={`/images/${p.image}.webp`}
                       alt={`${p.name} product concept`}
                       fill
-                      sizes={
-                        p.image === "commerce"
-                          ? "94vw"
-                          : "(max-width: 640px) 94vw, 46vw"
-                      }
+                      sizes="(max-width: 640px) 94vw, 46vw"
                     />
                   </div>
                   <div className="project-bottom">

@@ -2,12 +2,34 @@ import { test, expect } from "@playwright/test";
 
 test("project filters and accessible detail dialog", async ({ page }) => {
   await page.goto("/");
-  await expect(page.locator(".project-card")).toHaveCount(3);
+  await expect(page.locator(".project-card")).toHaveCount(4);
   await page.getByRole("button", { name: "Mobile", exact: true }).click();
-  await expect(page.locator(".project-card")).toHaveCount(2);
+  await expect(page.locator(".project-card")).toHaveCount(3);
   await expect(
     page.getByRole("button", { name: "View E-commerce Platform project" }),
   ).toHaveCount(0);
+  await page.getByRole("button", { name: "View ChessFlutter project" }).click();
+  const chess = page.getByRole("dialog", { name: "ChessFlutter" });
+  await expect(chess).toBeVisible();
+  await expect(chess).toContainText("12-stage journey");
+  await expect(chess.getByRole("img")).toHaveAttribute("src", /chessflutter/);
+  await expect
+    .poll(() =>
+      chess.locator("img").evaluate(
+        (image: HTMLImageElement) => image.complete && image.naturalWidth > 0,
+      ),
+    )
+    .toBe(true);
+  await page.keyboard.press("Escape");
+  await page.getByRole("button", { name: "SaaS", exact: true }).click();
+  await expect(
+    page.getByRole("button", { name: "View ChessFlutter project" }),
+  ).toHaveCount(0);
+  await page.getByRole("button", { name: "Web", exact: true }).click();
+  await expect(
+    page.getByRole("button", { name: "View ChessFlutter project" }),
+  ).toBeVisible();
+  await page.getByRole("button", { name: "Mobile", exact: true }).click();
   await page.getByRole("button", { name: "View Momby project" }).click();
   await expect(page.getByRole("dialog", { name: "Momby" })).toBeVisible();
   await page.keyboard.press("Escape");
@@ -29,9 +51,9 @@ test("command palette, guide and interactive experiments work", async ({
   await page.keyboard.press("Control+k");
   await page
     .getByRole("textbox", { name: "Search projects and sections" })
-    .fill("Momby");
-  await page.getByRole("button", { name: "Momby", exact: true }).click();
-  await expect(page.getByRole("dialog", { name: "Momby" })).toBeVisible();
+    .fill("ChessFlutter");
+  await page.getByRole("button", { name: "ChessFlutter", exact: true }).click();
+  await expect(page.getByRole("dialog", { name: "ChessFlutter" })).toBeVisible();
   await page.keyboard.press("Escape");
   await page.getByRole("button", { name: "Tech stack", exact: true }).click();
   await expect(page.locator(".guide-answer")).toContainText("Flutter");
